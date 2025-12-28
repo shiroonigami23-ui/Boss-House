@@ -1,4 +1,4 @@
-Boss Room: Small Scale Co-op Sample © 2021 Unity Technologies
+Boss-House: Made by Shiro-Oni © 2022 Unity Technologies
 
 Licensed under the Unity Companion License for Unity-dependent projects (see https://unity3d.com/legal/licenses/unity_companion_license).
 
