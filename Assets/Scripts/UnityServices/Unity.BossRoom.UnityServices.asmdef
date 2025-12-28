@@ -1,0 +1,21 @@
+{
+    "name": "Unity.BossRoom.UnityServices",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Services.Core",
+        "Unity.Services.Authentication",
+        "Unity.Services.Wire.Internal",
+        "Unity.BossRoom.Infrastructure",
+        "VContainer",
+        "Unity.Services.Multiplayer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

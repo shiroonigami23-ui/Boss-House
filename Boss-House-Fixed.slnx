@@ -1,0 +1,25 @@
+﻿<Solution>
+  <Project Path="Unity.BossRoom.VisualEffects.csproj" />
+  <Project Path="Unity.BossRoom.Gameplay.csproj" />
+  <Project Path="Unity.BossRoom.Utils.csproj" />
+  <Project Path="Unity.BossRoom.UnityServices.csproj" />
+  <Project Path="Unity.BossRoom.Infrastructure.csproj" />
+  <Project Path="Unity.BossRoom.Editor.csproj" />
+  <Project Path="Unity.Multiplayer.Samples.Utilities.csproj" />
+  <Project Path="Unity.Multiplayer.Samples.Utilities.RNSM.csproj" />
+  <Project Path="Unity.BossRoom.ConnectionManagement.csproj" />
+  <Project Path="Unity.BossRoom.Tests.Runtime.csproj" />
+  <Project Path="Unity.BossRoom.ApplicationLifecycle.csproj" />
+  <Project Path="Unity.BossRoom.Audio.csproj" />
+  <Project Path="Unity.BossRoom.ApplicationLifecycle.Messages.csproj" />
+  <Project Path="Unity.Multiplayer.Samples.Utilities.ClientAuthority.csproj" />
+  <Project Path="Unity.Multiplayer.Samples.Utilities.Tests.Editor.csproj" />
+  <Project Path="Unity.BossRoom.Navigation.csproj" />
+  <Project Path="Unity.Multiplayer.Samples.Utilities.Tests.Runtime.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Unity.BossRoom.Infrastructure.ScriptableObjectArchitecture.Editor.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="Unity.Multiplayer.Samples.Utilities.Testing.csproj" />
+  <Project Path="Unity.BossRoom.DebugCheats.csproj" />
+  <Project Path="Unity.BossRoom.CameraUtils.csproj" />
+</Solution>

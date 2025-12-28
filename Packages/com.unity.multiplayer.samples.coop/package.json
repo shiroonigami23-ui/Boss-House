@@ -1,0 +1,13 @@
+{
+  "name": "com.unity.multiplayer.samples.coop",
+  "displayName": "Multiplayer Samples Utilities",
+  "version": "2.0.0",
+  "type": "template",
+  "host": "hub",
+  "unity": "6000.0",
+  "description": "Utilities package built on top of Netcode for GameObjects, providing useful scripts and tools.",
+  "dependencies": {
+    "com.unity.multiplayer.tools": "2.2.3",
+    "com.unity.netcode.gameobjects": "2.2.0"
+  }
+}

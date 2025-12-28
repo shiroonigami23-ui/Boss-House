@@ -1,0 +1,18 @@
+{% metadata_file .yamato/project.metafile %}
+---
+standards_{{ projects.first.name }}:
+  name: Standards Check {{ projects.first.name }}
+  agent:
+    type: Unity::VM
+    image: package-ci/ubuntu-22.04:v4
+    flavor: b1.large
+  commands:
+    - dotnet --version
+    - dotnet format --version
+    - sudo add-apt-repository -y ppa:deadsnakes/ppa
+    - sudo apt update
+    - sudo apt install -y python3.9
+    - python3 -m pip install unity-downloader-cli --upgrade
+    - unity-downloader-cli -u {{ projects.first.test_editors.first }} -c editor --wait --fast
+    - .Editor/Unity -batchmode -nographics -logFile - -executeMethod Packages.Rider.Editor.RiderScriptEditor.SyncSolution -projectPath {{ projects.first.path }} -quit
+    - dotnet run --project dotnet-tools/netcode.standards -- --project={{ projects.first.path }} --check
